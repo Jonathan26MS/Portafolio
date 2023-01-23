@@ -1,0 +1,335 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+   /* background-color: blueviolet;*/
+}
+
+.logo{
+    padding-top: 5px;
+    padding-left: 45px;
+    width: 2%;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /*background-color: blue;*/
+    justify-content: space-between;
+}
+
+section{
+    height: 100%;
+   /* background-color: aquamarine;*/
+}
+
+.seccion-1{
+    width: 60%;
+    height: 100%;}
+
+.seccion-2{
+    width: 30%;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+   /* background-color: red;*/
+}
+
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-left: 90px;
+    margin-top: 30px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.nota{
+    font-size: medium;
+    margin-left: 90px;
+    color: #0A3871;
+}
+
+.botones{
+    margin-left: 90px;
+    display: flex;
+}
+
+.btn-encriptar{
+background-color: #0A3871; 
+border: 1px solid #0A3871     ;
+border-radius: 24px;
+color: white;
+cursor: pointer;
+height: 67px;
+width: 320px;
+transition: 1s all;
+}
+
+.btn-encriptar:hover{
+    transform: scale(1.05);
+}
+
+.btn-desencriptar{
+    background-color: #D8DFE8; 
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 320px;
+    margin-left: 16px;
+    transition: 1s all;
+}
+
+.btn-desencriptar:hover{
+    transform: scale(1.05);
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    background: white;
+    background-image: url(Imagenes/Muñeco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 600px;
+    border: none;
+    border-radius: 32px;
+    color: #0A3871;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    padding: 10px;
+    resize: none;
+    position: absolute;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.nota2 h3{
+    width: 350px;
+    height: 20px;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 440px;
+    padding: 0px;
+    position: absolute;
+    background-color: white;
+}
+.nota2 h6{
+    width: 350px;
+    height: 20px;
+    font-size:15px;
+    text-align: center;
+    margin-top: 475px;
+    padding: 0px;
+    position: absolute;
+    background-color: white;
+}
+
+.copy{
+display: none;
+}
+
+.copiar{
+    background-color: #D8DFE8; 
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 320px;
+    margin-left: 18px;
+    position: absolute;
+    margin-top: 520px;
+    padding: 0px;
+    transition: 1s all;
+}
+
+.copiar:hover{
+    transform: scale(1.05);
+}
+
+.creador h3{
+    font-size: medium;
+    margin-left: 90px;
+    color: #0A3871;
+}
+
+
+
+
+
+
+/*Diseño responsivo para celulares*/
+
+@media screen and (max-width:480px) {/*Sirve para hacer condiciones en las pantallas como el if*/
+   
+    header{
+        width: 100%;
+        height: 96px;
+    }
+     
+    body{
+    width: 100%;
+    }
+
+    .logo{
+        margin-left: 16px;
+        padding-top: 24px;
+        padding-left: 0px;
+        width: 42px;
+        height: 63px;
+    }
+
+    main{
+        display: block;
+        width: 100%;
+        height: 720px;
+        /*background-color: blue;*/
+        justify-content: space-between;
+    }
+    
+    .seccion-1{
+        text-align: center;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .text-area{
+        height: 60%;
+        width: 80%;
+        border: none;
+        color: #0A3871;
+        margin: 5%;
+        margin-top: 0px;
+        text-transform: lowercase;
+        resize: none;
+    }
+
+    .botones{
+        margin-left: 4%;
+        display: flex;
+    }
+
+    .nota{
+        align-items: center;
+        font-size: medium;
+        margin-left: 0px;
+        color: #0A3871;
+    }
+
+    .seccion-2{
+        width: 100%;
+        height: 30%;
+    }
+
+    .btn-encriptar{
+        background-color: #0A3871; 
+        border: 1px solid #0A3871     ;
+        border-radius: 24px;
+        color: white;
+        cursor: pointer;
+        height: 67px;
+        width: 180PX;
+        transition: 1s all;
+    }
+
+    .btn-desencriptar{
+            background-color: #D8DFE8; 
+            border: 1px solid #0A3871;
+            border-radius: 24px;
+            color: #0A3871;
+            cursor: pointer;
+            height: 67px;
+            width: 180PX;
+            margin-left: 16px;
+            transition: 1s all;
+    }
+
+    .mensaje{
+        background: white;
+        width: 90%;
+        height: 26%;
+        border: none;
+        border-radius: 32px;
+        color: #0A3871;
+        margin-top: 5%;
+        margin-left: 2%;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        text-align: center;
+        padding: 10px;
+        resize: none;
+        position: absolute;
+    }
+
+    .nota2{
+        margin-left: 4.5%;
+    }
+
+    .nota2 h3{
+        width: 90%;
+        height: 20px;
+        font-size:40px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15%;
+        padding: 0px;
+        position: absolute;
+        background-color: white;
+    }
+    .nota2 h6{
+        width: 90%;
+        height: 20px;
+        font-size:25px;
+        text-align: center;
+        margin-top: 40%;
+        padding: 0px;
+        position: absolute;
+        background-color: white;
+    }       
+       
+    .copiar{
+        background-color: #D8DFE8; 
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        width: 320px;
+        margin-left: 10%;
+        position: absolute;
+        margin-top: 67%;
+        padding: 0px;
+        transition: 1s all;
+    }
+
+}
+

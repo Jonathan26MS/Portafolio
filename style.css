@@ -189,7 +189,6 @@ display: none;
 
 
 /*Diseño responsivo para celulares*/
-
 @media screen and (max-width:480px) {/*Sirve para hacer condiciones en las pantallas como el if*/
    
     header{

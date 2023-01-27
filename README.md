@@ -1,4 +1,4 @@
 # Portafolio
 Mis proyectos.
 
-<a href="https://github.com/Jonathan26MS/Portafolio.git">Visualiza mi repositorio</a>
+<a href="https://jonathan26ms.github.io/Portafolio/">Visualiza mi repositorio</a>

@@ -188,9 +188,8 @@ display: none;
 
 
 
-/*Diseño responsivo para celulares*/git
-@media screen and (max-width:480px) {/*Sirve para hacer condiciones en las pantallas como el if*/
-   
+/*Diseño responsivo para celulares*/
+@media screen and (max-width:480px){
     header{
         width: 100%;
         height: 96px;
@@ -213,7 +212,7 @@ display: none;
         width: 100%;
         height: 720px;
         /*background-color: blue;*/
-        justify-content: space-between;
+        /*justify-content: space-between;*/
     }
     
     .seccion-1{
@@ -257,7 +256,7 @@ display: none;
         color: white;
         cursor: pointer;
         height: 67px;
-        width: 180PX;
+        width: 180px;
         transition: 1s all;
     }
 
@@ -304,6 +303,7 @@ display: none;
         position: absolute;
         background-color: white;
     }
+
     .nota2 h6{
         width: 90%;
         height: 20px;
@@ -329,6 +329,5 @@ display: none;
         padding: 0px;
         transition: 1s all;
     }
-
 }
 
